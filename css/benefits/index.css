@@ -1,0 +1,35 @@
+.benefits {
+    display: grid;
+    grid-template-columns: 259fr 563.78fr;
+    gap: 56px;
+    margin-left: 186px;
+    margin-top: 76px;
+    margin-bottom: 55px;
+}
+
+.benefits__text {
+    font-family: Marvin Regular;
+    color: #FFFFFF;
+}
+
+.benefits__text_why {
+    font-size: 42px;
+}
+
+.benefits__text_do {
+    font-size: 52px;
+}
+
+.benefits__text_they {
+    font-size: 99px;
+}
+
+.benefits__text_me {
+    font-size: 62px;
+}
+
+.benefits__text {
+    line-height: 55px;
+
+
+}

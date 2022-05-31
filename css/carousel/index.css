@@ -1,0 +1,96 @@
+.carousel {
+    width: 563.78px;
+    height: 278.4px;
+    background-color: #FFDB08;
+    border-radius: 110px;
+    text-align: center;
+    z-index: 0;
+}
+
+.carousel__slide {
+    font-size: 20px;
+    font-family: 'Montserrat SemiBold';
+
+}
+
+.carousel__text_size {
+    font-size: 15px;
+    display: block;
+    margin-top: 20px;
+    font-family: 'Montserrat SemiBold';
+    text-align: center;
+}
+
+.carousel__text_agent {
+    margin-top: 77px;
+    margin-left: 123px;
+    margin-right: 123px;
+
+}
+
+.carousel__slide_data {
+    margin-top: 108px;
+    margin-left: 131px;
+    margin-right: 131px;
+
+}
+
+.carousel__slide_effect {
+    margin-top: 120px;
+    margin-left: 85px;
+    margin-right: 85px;
+
+}
+
+.carousel__slide_marketing {
+    margin-top: 116px;
+    margin-left: 146px;
+    margin-right: 146px;
+
+}
+
+
+.caroosel__swiper {
+    --swiper-theme-color: #090909;
+}
+
+
+.carousel__control_left {
+    width: 31px;
+    background-image: url(../../img/leFt.png);
+    background-size: cover;
+    margin-left: 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+}
+
+.carousel__control_right {
+    width: 31px;
+    background-image: url(../../img/right.png);
+    background-size: cover;
+    margin-right: 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.carousel__control_arrow::after {
+    display: none;
+}
+
+.carousel__pagination {
+    margin-top: 0;
+    margin-bottom: 52px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    margin: 2px !important;
+    background-color: #E2D2D2;
+    opacity: 1;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #000000;
+}

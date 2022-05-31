@@ -1,0 +1,21 @@
+.hidden {
+    display: none;
+}
+
+.just-validate-error-label {
+    font-family: "Montserrat SemiBold";
+    font-size: 10px;
+    color: red!important;
+    position: absolute;
+    top: 37px;
+    left: 17px;
+    white-space: nowrap;
+}
+
+.form__input.is-invalid {
+    border: 1px solid red;
+}
+
+.form__label_checkbox.is-invalid::before {
+    border: 1px solid red;
+}

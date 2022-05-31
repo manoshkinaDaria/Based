@@ -1,0 +1,28 @@
+.jBox-container {
+    background-color: #FFDB08 !important;
+    border-radius: 50px !important;
+}
+
+.jBox-title {
+    border-radius: 50px 50px 0 0 !important;
+    border-bottom: none !important;
+    background-color: #FFDB08 !important;
+    padding-right: 40px !important;
+    padding-top: 41px !important;
+    padding-left: 20px !important;
+}
+
+
+
+.jBox-closeButton.jBox-noDrag {
+    background-image: url(../../img/close.svg);;
+    background-repeat: no-repeat !important;
+    top: 31px !important;
+    right: 15px !important;
+}
+.jBox-closeButton path {
+    display: none !important;
+}
+.jBox-title .data-form__title {
+    margin-bottom: 0px!important;
+}

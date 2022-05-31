@@ -1,0 +1,34 @@
+@import "./reset/index.css";
+@import "./utils/index.css";
+@import "./body/index.css";
+@import "./top-nav/index.css";
+@import "./menu/index.css";
+@import "./section-about/index.css";
+@import "./button/index.css";
+@import "./header/index.css";
+@import "./container/index.css";
+@import "./benefits/index.css";
+@import "./carousel/index.css";
+@import "./contacts/index.css";
+@import "../node_modules/swiper/swiper-bundle.css";
+@import "./feedback/index.css";
+@import "./invitation/index.css";
+@import "./data-form/index.css";
+@import "./form/index.css";
+@import "./popup/index.css";
+@import "./font/index.css";
+@import "./jBox/index.css";
+
+
+
+
+
+ @font-face {
+    font-family: "Marvin Regular";
+   src: url("397-font.otf")
+}
+
+@font-face {
+    font-family: "Montserrat SemiBold";
+   src: url("ofont.ru_Montserrat.ttf")
+}

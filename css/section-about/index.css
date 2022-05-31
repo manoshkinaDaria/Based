@@ -1,0 +1,107 @@
+.section-about__subtitle {
+    font-family: 'Marvin Regular';
+    font-size: 34px;
+    color: #D9E02D;
+}
+
+.section-about__edition {
+    font-size: 17px;
+    font-family: 'Montserrat SemiBold';
+    color: #FFFFFF;
+}
+
+.section-about {
+    display: grid;
+    grid-template-columns: 624fr 380fr;
+    justify-content: center;
+}
+
+.section-about__img-element {
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: 0.5s ease-out;
+    width: 335px;
+    height: 411px;
+    margin-left: 47px;
+    grid-column: 2 / 3;
+    grid-row: 1/4;
+    position: relative;
+    z-index: 1;
+}
+
+.section-about__image {
+    z-index: 1;
+    width: 335px;
+    height: 411px;
+    position: absolute;
+    top: -4px;
+}
+
+
+.section-about__img-element:hover {
+    transform: scale(1.5) translateX(120px) translateY(160px);
+    transition: 0.5s;
+    z-index: 100;
+}
+
+
+.section-about__image-shadow {
+    z-index: 0;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    margin-left: 163px;
+    margin-top: 149px;
+    width: 20px;
+    height: 20px;
+    background-color: #FFDB08;
+    border-radius: 50%;
+    box-shadow: 0 0 130px 130px #FFDB08;
+
+}
+
+.section-about__name {
+    display: grid;
+    grid-column: 1 / 2;
+    
+
+}
+
+.section-about__subtitle {
+    grid-column: 1/2;
+    white-space: nowrap;
+    margin-top: 8px;
+}
+
+.section-about__edition {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-top: 15px;
+    margin-bottom: 23px;
+
+
+}
+
+.section-about__button {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    border: none;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: 0.5s ease-out;
+}
+
+.section-about__benefits_text {
+    color: #FFFFFF;
+}
+
+.section-about__container {
+    margin-top: 35px;
+}
+
+.section-about__button:hover {
+    background-color: #B09700;
+    transform: scale(1.1);
+    z-index: 100;
+    cursor: pointer;
+    
+}

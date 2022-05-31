@@ -1,0 +1,154 @@
+.form__invitation {
+    margin-top: 32px;
+}
+
+.form__label {
+    position: relative;
+}
+
+.form__input {
+    width: 489px;
+    height: 40px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #707070;
+    position: relative;
+    font-family: "Montserrat SemiBold";
+    padding-left: 27px;
+
+
+}
+
+.form__text {
+    width: 489px;
+    height: 113px;
+    border-radius: 20px;
+    resize: none;
+    margin-bottom: 11px;
+    padding-top: 15px;
+    padding-left: 27px;
+}
+
+
+
+.form__label_checkbox {
+    font-family: "Montserrat SemiBold";
+    font-size: 13px;
+    padding-left: 28px;
+}
+
+.form__submit {
+    width: 134px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: #FFFFFF;
+    font-family: "Montserrat SemiBold";
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 35px;
+
+}
+
+.form__data_processing {
+    text-decoration: none;
+    color: #1538E8;
+}
+
+.form__input_type_checkbox {
+    appearance: none;
+    position: absolute;
+}
+
+.form__checkbox-element {
+    position: relative;
+}
+
+.form__label_checkbox:before {
+    content: "";
+    display: block;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #707070;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+
+
+.form__label_checkbox:after {
+    content: "";
+    display: block;
+    background: url(./../../img/check.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 17px;
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    left: 5px;
+    opacity: 0;
+
+}
+
+
+
+.form__checkbox:checked+.form__label_checkbox:after {
+    opacity: 1;
+}
+
+.input__required {
+    color: red;
+}
+
+.form__input:valid+.form__label {
+    display: none;
+}
+
+.form__input:focus+.form__label {
+    display: none;
+}
+
+
+
+
+
+
+
+.error {
+    border: 1px solid red;
+}
+
+.form__checkbox-element.form__input_active .form__label_checkbox:before {
+    border: 1px solid red;
+}
+
+::-webkit-input-placeholder {
+    color: #707070;
+    font-family: "Montserrat SemiBold";
+    font-size: 10px;
+}
+
+::-moz-placeholder {
+    color: #707070;
+    font-family: "Montserrat SemiBold";
+    font-size: 10px;
+}
+
+:-ms-input-placeholder {
+    color: #707070;
+    font-family: "Montserrat SemiBold";
+    font-size: 10px;
+}
+
+:-moz-placeholder {
+    color: #707070;
+    font-family: "Montserrat SemiBold";
+    font-size: 10px;
+}

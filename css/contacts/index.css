@@ -1,0 +1,24 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contacts__mail {
+    margin-right: 35px;
+}
+
+.contacts__phone {
+    margin-right: 35px;
+}
+
+.contacts__icon{
+    width: 42px;
+    height: 42px;
+}
+
+.contacts__link{
+    display: block;
+}
+

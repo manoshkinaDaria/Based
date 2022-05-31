@@ -1,0 +1,16 @@
+.menu {
+    list-style: none;
+
+}
+
+
+.menu__link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Montserrat SemiBold';
+}
+
+.menu__item {
+    margin-right: 30px;
+}

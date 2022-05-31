@@ -1,0 +1,9 @@
+.feedback {
+    background-color: #FFDB08;
+    padding-top: 42px;
+    padding-bottom: 36px;
+}
+.feedback__container {
+    display: flex;
+    justify-content: space-between;
+}

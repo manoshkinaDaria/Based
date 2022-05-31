@@ -1,0 +1,8 @@
+.button {
+    width: 340px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: #FFDB08;
+    font-size: 30px;
+    font-family: 'Montserrat SemiBold';
+}

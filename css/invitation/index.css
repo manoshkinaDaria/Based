@@ -1,0 +1,52 @@
+.invitation__text {
+    font-family: 'Marvin Regular';
+    font-size: 78px;
+
+}
+
+.invitation__contacts_text {
+    font-family: "Montserrat SemiBold";
+    font-size: 20px;
+}
+
+.invitation {
+    width: 425px;
+
+}
+
+.invitation__link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.invitation__contacts_text {
+    margin-left: 17px;
+}
+
+.invitation__contacts {
+    margin-top: 55px;
+}
+
+.invitation__button {
+    width: 312.63px;
+    height: 58.89px;
+    background-color: #000000;
+    border: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: 'Montserrat SemiBold';
+    font-size: 28px;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: 0.5s ease-out;
+    margin-top: 101px;
+}
+
+.invitation__button:hover {
+    background-color: #B09700;
+    transform: scale(1.1);
+    z-index: 100;
+    cursor: pointer;
+}
+
